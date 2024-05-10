@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/navbar/Navbar";
+import ActiveSectionContextProvider from "@/ui/active-section-context";
+import Logo from "@/components/logo/Logo";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,12 +14,17 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className=" bg-white !scroll-smooth min-h-[900vh]">
+      <body className={`${inter.className} overflow-y-scroll`}>
+        <ActiveSectionContextProvider>
+          <Logo />
+          <Navbar />
+          <main className="container mx-auto px-4">{children}</main>
+          <div className=" min-h-screen bg-white"></div>
+        </ActiveSectionContextProvider>
+      </body>
     </html>
   );
 }
