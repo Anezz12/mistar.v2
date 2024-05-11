@@ -60,7 +60,7 @@ function Navbar() {
                   <li key={link.hash}>
                     <Link
                       href={link.hash}
-                      className={clsx(" text-black hover:text-purple-600", {
+                      className={clsx(" text-black hover:text-blue-500", {
                         "": activeSection === link.name,
                       })}
                       onClick={() => {
@@ -131,7 +131,7 @@ function Navbar() {
                 key={link.hash}
                 href={link.hash}
                 className={clsx(
-                  "text-black hover:text-purple-600 block px-3 py-2 rounded-md text-base font-medium"
+                  "text-black hover:text-blue-500 block px-3 py-2 rounded-md text-base font-medium"
                 )}
                 onClick={() => {
                   setActiveSection(link.name);

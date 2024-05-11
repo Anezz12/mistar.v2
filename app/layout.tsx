@@ -16,13 +16,12 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className=" bg-white !scroll-smooth min-h-[900vh]">
-      <body className={`${inter.className} overflow-y-scroll`}>
+    <html lang="en" className="bg-white min-h-[500vh] !scroll-smooth">
+      <body className={`${inter.className} bg-white`}>
         <ActiveSectionContextProvider>
           <Logo />
           <Navbar />
-          <main className="container mx-auto px-4">{children}</main>
-          <div className=" min-h-screen bg-white"></div>
+          <main>{children}</main>
         </ActiveSectionContextProvider>
       </body>
     </html>
