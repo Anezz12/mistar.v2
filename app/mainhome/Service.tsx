@@ -5,7 +5,7 @@ import Link from "next/link";
 function page() {
   return (
     <div>
-      <div className=" flex flex-col items-center max-w-7xl mx-auto p-5 py-56">
+      <div className=" flex flex-col items-center max-w-7xl mx-auto p-5 py-20">
         <span className="text-black font-bold text-4xl py-10">
           Layanan <em className="text-blue-500">Mistar</em>
         </span>
@@ -20,10 +20,10 @@ function page() {
             />
             <div className="p-4">
               <h3 className="text-lg font-semibold mb-2 text-black">
-                Pengertian Mesin Fotocopy dan 3 Keunggulan Pemakaiannya
+                Fotocopy & Print
               </h3>
               <p className="text-gray-600 mb-4">
-                Secara umum, pengertian fotocopy adalah metode membuat tinjau
+                Secara umum, pengertian fotocopy adalah metode membuat tiruan
                 atau salinan dokumen pada kertas...
               </p>
               <Link
@@ -45,11 +45,11 @@ function page() {
             />
             <div className="p-4">
               <h3 className="text-lg font-semibold text-black mb-2">
-                Jenis Penjilidan Buku Yang Perlu Anda Ketahui
+                Pres, Laminating, Scan
               </h3>
               <p className="text-gray-600 mb-4">
-                Bagi Anda yang pernah mencetak buku, mungkin pernah merasakan
-                kebingungan saat memilih jenis...
+                Kami melayani pres, laminating, dan scan. Dengan peralatan
+                lengkap kami dan tim kami tidak...
               </p>
               <Link
                 href="/article/contain2"
@@ -70,11 +70,11 @@ function page() {
             />
             <div className="p-4">
               <h3 className="text-lg font-semibold mb-2 text-black">
-                Manfaat Notebook Catatan sebagai Cerminan Pribadi Unggul
+                Cetak Notebook/Blocknote
               </h3>
               <p className="text-gray-600 mb-4">
-                Mengapa notebook catatan seringkali dikaitkan dengan karakter
-                produktif dan unggul? Apa saja...
+                Buku catatan merupakan buku dengan isi yang dipakai untuk
+                mencatat. Bagi Anda yang sering...
               </p>
               <Link
                 href="/article/contain3"

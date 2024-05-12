@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/navbar/Navbar";
 import ActiveSectionContextProvider from "@/ui/active-section-context";
 import Logo from "@/components/logo/Logo";
+import Footer from "@/components/footer/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({
           <Logo />
           <Navbar />
           <main>{children}</main>
+          <Footer />
         </ActiveSectionContextProvider>
       </body>
     </html>

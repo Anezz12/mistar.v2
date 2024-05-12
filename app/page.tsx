@@ -3,16 +3,20 @@ import HeroSection from "./mainhome/HeroSection";
 import About from "./mainhome/About";
 import Service from "./mainhome/Service";
 import Clock from "./mainhome/Clock";
+import Skills from "./mainhome/Skills";
 
 function page() {
   return (
     <div>
       <HeroSection />
-      <div className="max-w-7xl mx-auto p-5 py-5">
+      <div className="max-w-7xl mx-auto p-5 py-10">
         <About />
-        <Service />
+        <Skills />
       </div>
       <Clock />
+      <div className="max-w-7xl mx-auto p-5 ">
+        <Service />
+      </div>
     </div>
   );
 }
