@@ -23,7 +23,7 @@ export default function RootLayout({
           <Logo />
           <Navbar />
           <main>{children}</main>
-          <Footer />
+          {/* <Footer /> */}
         </ActiveSectionContextProvider>
       </body>
     </html>

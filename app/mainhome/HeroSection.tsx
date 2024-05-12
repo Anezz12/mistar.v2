@@ -1,5 +1,4 @@
 import React from "react";
-import bgImage from "/public/bg.jpeg";
 
 function page() {
   return (
@@ -8,7 +7,9 @@ function page() {
         <div
           className="w-full h-screen bg-cover bg-center"
           style={{
-            backgroundImage: `url(${bgImage.src})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundImage: `url("/bg.jpeg")`,
           }}
         ></div>
       </div>
@@ -27,7 +28,7 @@ function page() {
             <div className="flex gap-5">
               <a
                 className="bg-white w-fit flex gap-2 items-center text-black px-4 py-2 rounded-md"
-                href="/order"
+                href="https://api.whatsapp.com/send?phone=6281230498560"
               >
                 <span>Pesan sekarang</span>
                 <svg
@@ -48,7 +49,7 @@ function page() {
               </a>
               <a
                 className="bg-blue-500 w-fit flex gap-2 items-center px-4 py-2 text-white rounded-md"
-                href="/services"
+                href="/service"
               >
                 <span>Services kami</span>
                 <svg
