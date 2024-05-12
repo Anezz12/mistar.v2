@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function page() {
@@ -15,9 +16,11 @@ function page() {
       </div>
       <div className="relative z-10">
         <header className="w-full h-[30vh] flex  justify-start items-center text-white">
-          <span className=" text-lg cursor-pointer hover:underline p-5">
-            {"Home"}
-          </span>
+          <Link href="/">
+            <span className=" text-lg cursor-pointer hover:underline p-5">
+              {"Home"}
+            </span>
+          </Link>
           <p>{">"}</p>
           <span className="text-lg cursor-pointer hover:underline p-5">
             {" About "}
