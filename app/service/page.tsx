@@ -23,7 +23,7 @@ function page() {
           </Link>
           <p>{">"}</p>
           <span className="text-lg cursor-pointer hover:underline p-5">
-            {" Service "}
+            {"Service"}
           </span>
           <div className="flex items-center gap-4 sm:flex-col"></div>
         </header>
