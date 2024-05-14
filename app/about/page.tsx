@@ -125,7 +125,7 @@ function page() {
           </div>
         </section>
       </div>
-      <section className="w-[80vw] mx-auto my-32 flex gap-8 mobile:flex-col-reverse">
+      <section className="w-[80vw] mx-auto my-24 flex gap-8 mobile:flex-col-reverse">
         <div className=" w-2/5 left-0 flex flex-col items-end gap-8">
           <div className="font-bold text-3xl text-right">
             Bersantai dalam Kenyamanan Murni
