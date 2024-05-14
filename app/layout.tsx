@@ -17,13 +17,13 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className="bg-white min-h-[500vh] !scroll-smooth">
+    <html lang="en" className="bg-white min-h-screen !scroll-smooth">
       <body className={`${inter.className} bg-white`}>
         <ActiveSectionContextProvider>
           <Logo />
           <Navbar />
           <main>{children}</main>
-          {/* <Footer /> */}
+          <Footer />
         </ActiveSectionContextProvider>
       </body>
     </html>
