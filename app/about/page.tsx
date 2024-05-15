@@ -51,7 +51,7 @@ function page() {
           // }}
           >
             <Image
-              src="/bg2.jpg"
+              src="/bg2.jpeg"
               alt="Image"
               width={1000}
               height={1000}
@@ -172,7 +172,7 @@ function page() {
             </div>
             <div className="flex items-center gap-4 text-center">
               <div className="flex flex-col items-end ">
-                <div className="font-bold text-3xl text-black/[.7]">5</div>
+                <div className="font-bold text-3xl text-black/[.7]">6</div>
                 <p className="text-sm text-black/[.7]">Karyawan</p>
               </div>
               <div className="flex justify-center items-center p-4 rounded-full">
@@ -202,7 +202,7 @@ function page() {
           style={{
             backgroundSize: "cover",
             backgroundPosition: "center",
-            backgroundImage: `url("/bg2.jpg")`,
+            backgroundImage: `url("/bg2.jpeg")`,
           }}
         >
           {/* <Image
