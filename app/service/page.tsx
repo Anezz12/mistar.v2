@@ -33,7 +33,7 @@ function page() {
         <div>
           <div className=" flex flex-col items-center max-w-7xl mx-auto p-5  pt-48">
             <span className="text-black font-bold text-4xl py-10">
-              Kenapa <em className="text-blue-500">Mistar</em>
+              Layanan <em className="text-blue-500">Mistar</em>
             </span>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="bg-slate-50 flex flex-col items-center rounded-lg shadow-md overflow-hidden">
