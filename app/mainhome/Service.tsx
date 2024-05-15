@@ -27,7 +27,7 @@ function page() {
                 atau salinan dokumen pada kertas...
               </p>
               <Link
-                href="/article/contain"
+                href="/service"
                 className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
               >
                 READ MORE
@@ -52,7 +52,7 @@ function page() {
                 lengkap kami dan tim kami tidak...
               </p>
               <Link
-                href="/article/contain2"
+                href="/service"
                 className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
               >
                 READ MORE
@@ -77,7 +77,7 @@ function page() {
                 mencatat. Bagi Anda yang sering...
               </p>
               <Link
-                href="/article/contain3"
+                href="/service"
                 className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
               >
                 READ MORE
