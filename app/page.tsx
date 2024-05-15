@@ -4,6 +4,7 @@ import About from "./mainhome/About";
 import Service from "./mainhome/Service";
 import Clock from "./mainhome/Clock";
 import Skills from "./mainhome/Skills";
+import Contact from "./mainhome/Contact";
 
 function page() {
   return (
@@ -16,6 +17,7 @@ function page() {
       <Clock />
       <div className="max-w-7xl mx-auto p-5 ">
         <Service />
+        <Contact />
       </div>
     </div>
   );

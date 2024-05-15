@@ -29,10 +29,12 @@ function page() {
         </header>
       </div>
       <div>
-        <div className="container mx-auto py-20 text-black">
+        <div className=" text-black items-center max-w-7xl mx-auto p-5 pt-48">
           <div className="row justify-center">
             <div className="col-lg-12 col-md-6 wow fadeInUp animate__animated animate__fadeInUp animate__delay-500ms">
-              <p className="mb-4"></p>
+              <p className="mb-4 font-bold text-4xl text-center pb-20">
+                Cabang <em className="text-blue-500">Mistar</em>
+              </p>
               <p className="font-bol">FOTO COPY MISTAR</p>
               <p className="mb-2">
                 Jl. Bibis Raya, Jetis, Tamantirto, Kec. Kasihan, Kabupaten

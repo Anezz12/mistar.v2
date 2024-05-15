@@ -22,10 +22,7 @@ function Navbar() {
       name: "Service",
       hash: "/service",
     },
-    {
-      name: "Pesan",
-      hash: "/pesan",
-    },
+
     {
       name: "Contact",
       hash: "/contact",

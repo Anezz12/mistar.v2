@@ -192,7 +192,7 @@ function page() {
                 <Image
                   src="/kirim.png"
                   width="1000"
-                  height="200"
+                  height="0"
                   alt="some value"
                   className=" w-full h-48 object-cover"
                 />
