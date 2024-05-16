@@ -1,11 +1,26 @@
-import React from "react";
-
+"use client";
+import { useRef } from "react";
+import { motion, useScroll, useTransform } from "framer-motion";
 function Contact() {
+  const ref = useRef<HTMLDivElement>(null);
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["0 1", "1.33 1"],
+  });
+  const scaleProgess = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
+  const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
   return (
-    <div>
+    <motion.div
+      ref={ref}
+      style={{
+        scale: scaleProgess,
+        opacity: opacityProgess,
+      }}
+      className="group mb-3 sm:mb-8 last:mb-0"
+    >
       <div className="py-20 text-black font-bold">
         <div className=" text-4xl text-center">
-          KotaK <em className="text-blue-500">Saran</em>
+          Kontak <em className="text-blue-500">Saran</em>
         </div>
         <div className=" py-8">
           <div>
@@ -60,7 +75,7 @@ function Contact() {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

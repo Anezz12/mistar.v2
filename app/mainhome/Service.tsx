@@ -1,10 +1,28 @@
-import React from "react";
+"use client";
+
+import { useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { motion, useScroll, useTransform } from "framer-motion";
 
-function page() {
+function Service() {
+  const ref = useRef<HTMLDivElement>(null);
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["0 1", "1.33 1"],
+  });
+  const scaleProgess = useTransform(scrollYProgress, [0, 1], [0.8, 1]);
+  const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
+
   return (
-    <div>
+    <motion.div
+      ref={ref}
+      style={{
+        scale: scaleProgess,
+        opacity: opacityProgess,
+      }}
+      className="group mb-3 sm:mb-8 last:mb-0"
+    >
       <div className=" flex flex-col items-center max-w-7xl mx-auto p-5 py-20">
         <span className="text-black font-bold text-4xl py-10">
           Layanan <em className="text-blue-500">Mistar</em>
@@ -86,8 +104,8 @@ function page() {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
-export default page;
+export default Service;
