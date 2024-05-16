@@ -5,7 +5,7 @@ function Contact() {
     <div>
       <div className="py-20 text-black font-bold">
         <div className=" text-4xl text-center">
-          Kotal <em className="text-blue-500">Saran</em>
+          KotaK <em className="text-blue-500">Saran</em>
         </div>
         <div className=" py-8">
           <div>
