@@ -28,7 +28,7 @@ function page() {
             <div className="flex gap-5">
               <a
                 className="bg-white w-fit flex gap-2 items-center text-black px-4 py-2 rounded-md"
-                href="https://api.whatsapp.com/send?phone=6281230498560"
+                href="https://api.whatsapp.com/send?phone=6282322292996"
               >
                 <span>Pesan sekarang</span>
                 <svg

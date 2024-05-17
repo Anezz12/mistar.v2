@@ -21,7 +21,7 @@ function Footer() {
             Jl. Bibis Raya, Jetis, Tamantirto, Kec. Kasihan, Kabupaten Bantul,
             Daerah Istimewa Yogyakarta 55183
           </p>
-          <p>081230498560</p>
+          <p>+62 823-2229-2996</p>
           <p>Senin - Minggu (07.00 - 21.00 WIB)</p>
         </div>
         <div>
