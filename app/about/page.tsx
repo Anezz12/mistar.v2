@@ -134,7 +134,7 @@ function page() {
             <div className="item flex items-center gap-4 text-center mobile:flex-col-reverse">
               <div className="flex flex-col items-end">
                 <div className="font-bold text-3xl text-black/[.7]">7</div>
-                <p className=" text-sm text-black/[.7]">Mesin Fotocopy</p>
+                <p className=" text-sm text-black/[.7]">Mesin</p>
               </div>
               <div className="flex justify-center items-center p-4 rounded-full">
                 <Image
