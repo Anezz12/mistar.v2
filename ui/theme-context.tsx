@@ -25,11 +25,11 @@ export default function ThemeContextProvider({
       setTheme("dark");
       window.localStorage.setItem("theme", "dark");
       document.documentElement.classList.add("dark");
-      return;
+    } else {
+      setTheme("light");
+      window.localStorage.setItem("theme", "light");
+      document.documentElement.classList.remove("dark");
     }
-    setTheme("light");
-    window.localStorage.setItem("theme", "light");
-    document.documentElement.classList.remove("dark");
   };
 
   useEffect(() => {

@@ -19,11 +19,8 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html
-      lang="en"
-      className="bg-white  min-h-screen !scroll-smooth dark:bg-black"
-    >
-      <body className={`${inter.className} bg-white dark:bg-black`}>
+    <html lang="en" className="min-h-screen !scroll-smooth">
+      <body className={`${inter.className} bg-white dark:bg-slate-800`}>
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
             <Logo />
