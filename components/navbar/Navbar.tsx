@@ -42,12 +42,15 @@ function Navbar() {
     <div>
       <motion.nav
         ref={ref}
-        className="fixed top-0 left-0 right-0 z-[999] bg-white  backdrop-blur-sm shadow-lg"
+        className="fixed top-0 left-0 right-0 z-[999] bg-white  backdrop-blur-sm shadow-lg dark:bg-black "
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
-              <Link href="/" className="text-xl font-bold text-black ">
+              <Link
+                href="/"
+                className="text-xl font-bold text-black dark:text-white"
+              >
                 Mistar Fotocopy
               </Link>
             </div>
@@ -57,9 +60,12 @@ function Navbar() {
                   <li key={link.hash}>
                     <Link
                       href={link.hash}
-                      className={clsx(" text-black hover:text-blue-500", {
-                        "": activeSection === link.name,
-                      })}
+                      className={clsx(
+                        " text-black dark:text-white hover:text-blue-500",
+                        {
+                          "": activeSection === link.name,
+                        }
+                      )}
                       onClick={() => {
                         setActiveSection(link.name);
                         setTimeOfLastClick(Date.now());

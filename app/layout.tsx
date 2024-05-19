@@ -5,6 +5,8 @@ import Navbar from "@/components/navbar/Navbar";
 import ActiveSectionContextProvider from "@/ui/active-section-context";
 import Logo from "@/components/logo/Logo";
 import Footer from "@/components/footer/Footer";
+import ThemeSwitch from "@/components/theme/theme-switch";
+import ThemeContextProvider from "@/ui/theme-context";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,14 +19,20 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className="bg-white min-h-screen !scroll-smooth">
-      <body className={`${inter.className} bg-white`}>
-        <ActiveSectionContextProvider>
-          <Logo />
-          <Navbar />
-          <main>{children}</main>
-          <Footer />
-        </ActiveSectionContextProvider>
+    <html
+      lang="en"
+      className="bg-white  min-h-screen !scroll-smooth dark:bg-black"
+    >
+      <body className={`${inter.className} bg-white dark:bg-black`}>
+        <ThemeContextProvider>
+          <ActiveSectionContextProvider>
+            <Logo />
+            <ThemeSwitch />
+            <Navbar />
+            <main>{children}</main>
+            <Footer />
+          </ActiveSectionContextProvider>
+        </ThemeContextProvider>
       </body>
     </html>
   );
