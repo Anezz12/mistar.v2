@@ -24,10 +24,10 @@ export default function RootLayout({
         <ThemeContextProvider>
           <ActiveSectionContextProvider>
             <Logo />
-            <ThemeSwitch />
             <Navbar />
             <main>{children}</main>
             <Footer />
+            <ThemeSwitch />
           </ActiveSectionContextProvider>
         </ThemeContextProvider>
       </body>
