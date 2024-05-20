@@ -20,7 +20,7 @@ function Skills() {
       className="group mb-3 sm:mb-8 last:mb-0"
     >
       <div className=" flex flex-col items-center max-w-7xl mx-auto p-5  pt-48">
-        <span className="text-black font-bold text-4xl py-10">
+        <span className="text-black font-bold text-4xl py-10 dark:text-white">
           Kenapa <em className="text-blue-500">Mistar</em>
         </span>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">

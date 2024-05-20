@@ -32,25 +32,25 @@ function page() {
         <div className=" text-black items-center max-w-7xl mx-auto p-5 pt-48">
           <div className="row justify-center">
             <div className="col-lg-12 col-md-6 wow fadeInUp animate__animated animate__fadeInUp animate__delay-500ms">
-              <p className="mb-4 font-bold text-4xl text-center pb-20">
+              <p className="mb-4 font-bold text-4xl text-center pb-20 dark:text-white">
                 Cabang <em className="text-blue-500">Mistar</em>
               </p>
-              <p className="font-bol">FOTO COPY MISTAR</p>
-              <p className="mb-2">
+              <p className="font-bol dark:text-gray-50">FOTO COPY MISTAR</p>
+              <p className="mb-2 dark:text-gray-50">
                 Jl. Bibis Raya, Jetis, Tamantirto, Kec. Kasihan, Kabupaten
                 Bantul, Daerah Istimewa Yogyakarta 55183
               </p>
-              <p className="mb-4">+62 823-2229-2996</p>
-              <p>Cabang ke 1</p>
+              <p className="mb-4 dark:text-gray-50">+62 823-2229-2996</p>
+              <p className="dark:text-gray-50">Cabang ke 1</p>
               <iframe
                 className="w-full h-[450px]"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.659936843413!2d110.3276442!3d-7.825770599999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7af876f9a038dd%3A0x7552edb30a2f36b8!2sMistar%20Foto%20Copy!5e0!3m2!1sid!2sid!4v1714748958744!5m2!1sid!2sid"
                 scrolling="no"
               ></iframe>
               <br />
-              <p>Cabang ke 2</p>
+              <p className="dark:text-gray-50">Cabang ke 2</p>
 
-              <p>
+              <p className="dark:text-gray-50">
                 Jl. KRT Pringgodiningrat, Beran Kidul, Tridadi, Kec. Sleman,
                 Kabupaten Sleman, Daerah Istimewa Yogyakarta 55511
               </p>

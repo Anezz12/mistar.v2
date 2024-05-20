@@ -19,7 +19,7 @@ function Contact() {
       className="group mb-3 sm:mb-8 last:mb-0"
     >
       <div className="py-20 text-black font-bold">
-        <div className=" text-4xl text-center">
+        <div className=" text-4xl text-center dark:text-white">
           Kontak <em className="text-blue-500">Saran</em>
         </div>
         <div className=" py-8">

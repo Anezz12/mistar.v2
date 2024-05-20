@@ -61,7 +61,7 @@ function Navbar() {
                     <Link
                       href={link.hash}
                       className={clsx(
-                        " text-black dark:text-white hover:text-blue-500",
+                        " text-black dark:text-white hover:text-blue-500 dark:hover:text-blue-500",
                         {
                           "": activeSection === link.name,
                         }
@@ -81,9 +81,7 @@ function Navbar() {
               <button
                 onClick={toggleMenu}
                 type="button"
-                className="inline-flex items-center justify-center p-2 rounded-md text-black focus:outline-none focus:ring-2 focus:ring-inset focus:ring-cyan-500"
-                aria-controls="mobile-menu"
-                aria-expanded="false"
+                className="inline-flex items-center justify-center p-2 rounded-md text-black focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500 dark:text-white dark:hover:text-blue-500"
               >
                 <span className="sr-only">Open main menu</span>
                 {!isMenuOpen ? (
@@ -134,7 +132,7 @@ function Navbar() {
                 key={link.hash}
                 href={link.hash}
                 className={clsx(
-                  "text-black hover:text-blue-500 block px-3 py-2 rounded-md text-base font-medium"
+                  "text-black hover:text-blue-500 block px-3 py-2 rounded-md text-base font-medium dark:text-white dark:hover:text-blue-500"
                 )}
                 onClick={() => {
                   setActiveSection(link.name);

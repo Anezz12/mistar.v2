@@ -60,10 +60,10 @@ function page() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">
             <div className="item w-full flex flex-col gap-4">
-              <div className="title text-2xl font-bold text-black">
+              <div className="title text-2xl font-bold text-black dark:text-white">
                 Siapa kami?
               </div>
-              <div className="text text-gray-500 text-justify">
+              <div className="text text-gray-500 text-justify dark:text-gray-50">
                 Kami lebih dari sekadar layanan fotokopi. Kami adalah tim
                 profesional berdedikasi yang bersemangat memberikan layanan yang
                 luar biasa. Perjalanan kami dimulai dengan visi untuk memberikan
@@ -92,10 +92,10 @@ function page() {
               </div>
             </div>
             <div className="item w-full flex flex-col gap-4">
-              <div className="title text-2xl font-bold text-black">
+              <div className="title text-2xl font-bold text-black dark:text-white">
                 Apa yang kami kerjakan?
               </div>
-              <div className="text text-gray-500 text-justify">
+              <div className="text text-gray-500 text-justify dark:text-gray-50">
                 Misi inti kami sederhana: membuat hidup Anda lebih mudah dan
                 kebutuhan dokumen Anda terpenuhi dengan cepat dan efisien. Kami
                 menawarkan layanan komprehensif yang mencakup fotokopi,
@@ -127,14 +127,18 @@ function page() {
       </div>
       <section className="w-[80vw] mx-auto my-24 flex gap-8 mobile:flex-col-reverse">
         <div className=" w-2/5 left-0 flex flex-col items-end gap-8">
-          <div className="font-bold text-3xl text-right">
+          <div className="font-bold text-3xl text-right text-black dark:text-white">
             Bersantai dalam Kenyamanan Murni
           </div>
           <div className="items flex flex-col items-end gap-4">
             <div className="item flex items-center gap-4 text-center mobile:flex-col-reverse">
               <div className="flex flex-col items-end">
-                <div className="font-bold text-3xl text-black/[.7]">7</div>
-                <p className=" text-sm text-black/[.7]">Mesin</p>
+                <div className="font-bold text-3xl text-black/[.7] dark:text-white">
+                  7
+                </div>
+                <p className=" text-sm text-black/[.7] dark:text-white">
+                  Mesin
+                </p>
               </div>
               <div className="flex justify-center items-center p-4 rounded-full">
                 <Image
@@ -148,8 +152,12 @@ function page() {
             </div>
             <div className=" flex items-center gap-4 text-center">
               <div className=" flex flex-col items-end">
-                <div className="font-bold text-3xl text-black/[.7]">2</div>
-                <p className=" text-sm text-black/[.7]">Cabang</p>
+                <div className="font-bold text-3xl text-black/[.7] dark:text-white">
+                  2
+                </div>
+                <p className=" text-sm text-black/[.7] dark:text-white">
+                  Cabang
+                </p>
               </div>
               <div className="flex justify-center items-center p-4 rounded-full">
                 <svg
@@ -172,8 +180,12 @@ function page() {
             </div>
             <div className="flex items-center gap-4 text-center">
               <div className="flex flex-col items-end ">
-                <div className="font-bold text-3xl text-black/[.7]">6</div>
-                <p className="text-sm text-black/[.7]">Karyawan</p>
+                <div className="font-bold text-3xl text-black/[.7] dark:text-white">
+                  6
+                </div>
+                <p className="text-sm text-black/[.7] dark:text-white">
+                  Karyawan
+                </p>
               </div>
               <div className="flex justify-center items-center p-4 rounded-full">
                 <svg
