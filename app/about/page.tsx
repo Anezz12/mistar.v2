@@ -125,90 +125,8 @@ function page() {
           </div>
         </section>
       </div>
-      <section className="w-[80vw] mx-auto my-24 flex gap-8 mobile:flex-col-reverse">
-        <div className=" w-2/5 left-0 flex flex-col items-end gap-8">
-          <div className="font-bold text-3xl text-right text-black dark:text-white">
-            Bersantai dalam Kenyamanan Murni
-          </div>
-          <div className="items flex flex-col items-end gap-4">
-            <div className="item flex items-center gap-4 text-center mobile:flex-col-reverse">
-              <div className="flex flex-col items-end">
-                <div className="font-bold text-3xl text-black/[.7] dark:text-white">
-                  7
-                </div>
-                <p className=" text-sm text-black/[.7] dark:text-white">
-                  Mesin
-                </p>
-              </div>
-              <div className="flex justify-center items-center p-4 rounded-full">
-                <Image
-                  src="/mesin1.png"
-                  width="40"
-                  height="100"
-                  alt="some value"
-                  className="items-center"
-                />
-              </div>
-            </div>
-            <div className=" flex items-center gap-4 text-center">
-              <div className=" flex flex-col items-end">
-                <div className="font-bold text-3xl text-black/[.7] dark:text-white">
-                  2
-                </div>
-                <p className=" text-sm text-black/[.7] dark:text-white">
-                  Cabang
-                </p>
-              </div>
-              <div className="flex justify-center items-center p-4 rounded-full">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="40"
-                  height="40"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="text-yellow-400"
-                >
-                  <path d="M3 21v-13l9 -4l9 4v13"></path>
-                  <path d="M13 13h4v8h-10v-6h6"></path>
-                  <path d="M13 21v-9a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v3"></path>
-                </svg>
-              </div>
-            </div>
-            <div className="flex items-center gap-4 text-center">
-              <div className="flex flex-col items-end ">
-                <div className="font-bold text-3xl text-black/[.7] dark:text-white">
-                  6
-                </div>
-                <p className="text-sm text-black/[.7] dark:text-white">
-                  Karyawan
-                </p>
-              </div>
-              <div className="flex justify-center items-center p-4 rounded-full">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="40"
-                  height="40"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="text-yellow-400"
-                >
-                  <path d="M9 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"></path>
-                  <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
-                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                  <path d="M21 21v-2a4 4 0 0 0 -3 -3.85"></path>
-                </svg>
-              </div>
-            </div>
-          </div>
-        </div>
+
+      <section className="w-[80vw] mx-auto my-2 grid grid-cols-1 md:grid-cols-2">
         <div
           className="w-full rounded-md bg-cover bg-center h-[55vh]"
           style={{
@@ -216,14 +134,89 @@ function page() {
             backgroundPosition: "center",
             backgroundImage: `url("/bg2.jpeg")`,
           }}
-        >
-          {/* <Image
-            src="/bg2.jpg"
-            alt="Image"
-            width={1000}
-            height={667}
-            className="w-full h-fit rounded-md"
-          /> */}
+        />
+        <div>
+          <div className="font-bold text-3xl text-right text-black dark:text-white"></div>
+          <div className="">
+            <div className="items flex flex-col items-center gap-4">
+              <div className="item flex items-center gap-4 text-center">
+                <div className="flex flex-col items-center">
+                  <div className="font-bold text-3xl text-black/[.7] dark:text-white">
+                    7
+                  </div>
+                  <p className="text-sm text-black/[.7] dark:text-white">
+                    Mesin
+                  </p>
+                </div>
+                <div className="flex justify-center items-center p-4 rounded-full">
+                  <Image
+                    src="/mesin1.png"
+                    width="40"
+                    height="100"
+                    alt="some value"
+                    className="items-center"
+                  />
+                </div>
+              </div>
+              <div className="flex items-center gap-4 text-center">
+                <div className="flex flex-col items-center">
+                  <div className="font-bold text-3xl text-black/[.7] dark:text-white">
+                    2
+                  </div>
+                  <p className="text-sm text-black/[.7] dark:text-white">
+                    Cabang
+                  </p>
+                </div>
+                <div className="flex justify-center items-center p-4 rounded-full">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="40"
+                    height="40"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="text-yellow-400"
+                  >
+                    <path d="M3 21v-13l9 -4l9 4v13"></path>
+                    <path d="M13 13h4v8h-10v-6h6"></path>
+                    <path d="M13 21v-9a1 1 0 0 0 -1 -1h-2a1 1 0 0 0 -1 1v3"></path>
+                  </svg>
+                </div>
+              </div>
+              <div className="flex items-center gap-4 text-center">
+                <div className="flex flex-col items-center">
+                  <div className="font-bold text-3xl text-black/[.7] dark:text-white">
+                    6
+                  </div>
+                  <p className="text-sm text-black/[.7] dark:text-white">
+                    Karyawan
+                  </p>
+                </div>
+                <div className="flex justify-center items-center p-4 rounded-full">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="40"
+                    height="40"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="text-yellow-400"
+                  >
+                    <path d="M9 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"></path>
+                    <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    <path d="M21 21v-2a4 4 0 0 0 -3 -3.85"></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </div>

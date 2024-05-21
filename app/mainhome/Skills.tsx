@@ -24,7 +24,7 @@ function Skills() {
           Kenapa <em className="text-blue-500">Mistar</em>
         </span>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div className="bg-slate-50 flex flex-col items-center pt-20 rounded-lg shadow-md overflow-hidden">
+          <div className="bg-slate-50 dark:bg-black flex flex-col items-center pt-20 rounded-lg shadow-md overflow-hidden">
             <Image
               src="/mesin1.png"
               width="50"
@@ -32,18 +32,18 @@ function Skills() {
               alt="some value"
               className="items-center"
             />
-            <div className="p-10  text-center bg-slate-50">
-              <h3 className="text-lg font-semibold mb-2 text-black">
+            <div className="p-10  text-center">
+              <h3 className="text-lg font-semibold mb-2 text-black dark:text-white">
                 Fotocopy Terlengkap
               </h3>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-600 mb-4 dark:text-white ">
                 Kami menyediakan alat tulis kantor / ATK, PC untuk ngetik dan
                 print, jasa cutting, jilid skripsi kilat, dll.
               </p>
             </div>
           </div>
 
-          <div className="bg-slate-50 flex flex-col items-center pt-20 rounded-lg shadow-md overflow-hidden">
+          <div className="bg-slate-50 dark:bg-black  flex flex-col items-center pt-20 rounded-lg shadow-md overflow-hidden">
             <Image
               src="/mesin2.png"
               width="50"
@@ -51,11 +51,11 @@ function Skills() {
               alt="some value"
               className="items-center"
             />
-            <div className="p-10  text-center bg-slate-50">
-              <h3 className="text-lg font-semibold mb-2 text-black">
+            <div className="p-10  text-center">
+              <h3 className="text-lg font-semibold mb-2 text-black dark:text-white">
                 Peralatan Terbaik
               </h3>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-600 mb-4 dark:text-white">
                 Kami menggunakan mesin fotocopy terbaru dan terbaik saat ini dan
                 peralatan - peralatan pendukung kami yang terawat dan
                 berkualitas, tidak usah ragu lagi dengan hasil dari pada kami.
@@ -63,7 +63,7 @@ function Skills() {
             </div>
           </div>
 
-          <div className="bg-slate-50 flex flex-col items-center pt-20 rounded-lg shadow-md overflow-hidden">
+          <div className="bg-slate-50 dark:bg-black flex flex-col items-center pt-20 rounded-lg shadow-md overflow-hidden">
             <Image
               src="/jempol.png"
               width="50"
@@ -71,11 +71,11 @@ function Skills() {
               alt="some value"
               className="items-center"
             />
-            <div className="p-10  text-center bg-slate-50">
-              <h3 className="text-lg font-semibold mb-2 text-black">
+            <div className="p-10  text-center">
+              <h3 className="text-lg font-semibold mb-2 text-black dark:text-white">
                 Layanan Terbaik
               </h3>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-600 mb-4 dark:text-white">
                 Dengan tenaga profesional dan berketerampilan khusus di
                 bidangnya, anda tidak perlu khawatir lagi dengan hasil kerja
                 kami, karna kami akan memberikan pelayanan yang prima kepada

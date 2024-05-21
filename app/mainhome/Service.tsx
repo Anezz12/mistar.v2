@@ -28,7 +28,7 @@ function Service() {
           Layanan <em className="text-blue-500">Mistar</em>
         </span>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+          <div className="bg-white dark:bg-black rounded-lg shadow-md overflow-hidden">
             <Image
               src="/bg.jpeg"
               width="300"
@@ -37,10 +37,10 @@ function Service() {
               className="w-full h-48 object-cover"
             />
             <div className="p-4">
-              <h3 className="text-lg font-semibold mb-2 text-black">
+              <h3 className="text-lg font-semibold mb-2 text-black dark:text-white">
                 Fotocopy & Print
               </h3>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-600 mb-4 dark:text-white">
                 Secara umum, pengertian fotocopy adalah metode membuat tiruan
                 atau salinan dokumen pada kertas...
               </p>
@@ -53,7 +53,7 @@ function Service() {
             </div>
           </div>
 
-          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+          <div className="bg-white dark:bg-black rounded-lg shadow-md overflow-hidden ">
             <Image
               src="/bg.jpeg"
               width="300"
@@ -62,10 +62,10 @@ function Service() {
               className="w-full h-48 object-cover"
             />
             <div className="p-4">
-              <h3 className="text-lg font-semibold text-black mb-2">
+              <h3 className="text-lg font-semibold text-black mb-2 dark:text-white">
                 Pres, Laminating, Scan
               </h3>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-600 mb-4 dark:text-white">
                 Kami melayani pres, laminating, dan scan. Dengan peralatan
                 lengkap kami dan tim kami tidak...
               </p>
@@ -78,7 +78,7 @@ function Service() {
             </div>
           </div>
 
-          <div className="bg-white rounded-lg shadow-md overflow-hidden">
+          <div className="bg-white dark:bg-black rounded-lg shadow-md overflow-hidden">
             <Image
               src="/bg.jpeg"
               width="300"
@@ -87,10 +87,10 @@ function Service() {
               className="w-full h-48 object-cover"
             />
             <div className="p-4">
-              <h3 className="text-lg font-semibold mb-2 text-black">
+              <h3 className="text-lg font-semibold mb-2 text-black dark:text-white">
                 Cetak Notebook/Blocknote
               </h3>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-600 mb-4 dark:text-white">
                 Buku catatan merupakan buku dengan isi yang dipakai untuk
                 mencatat. Bagi Anda yang sering...
               </p>
