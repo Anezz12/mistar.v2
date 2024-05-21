@@ -126,9 +126,9 @@ function page() {
         </section>
       </div>
 
-      <section className="w-[80vw] mx-auto my-2 grid grid-cols-1 md:grid-cols-2">
+      <section className="w-[80vw] mx-auto items-center grid grid-cols-1 md:grid-cols-3">
         <div
-          className="w-full rounded-md bg-cover bg-center h-[55vh]"
+          className="w-full rounded-md  items-center h-[55vh]"
           style={{
             backgroundSize: "cover",
             backgroundPosition: "center",
