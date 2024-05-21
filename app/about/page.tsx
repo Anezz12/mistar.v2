@@ -126,17 +126,17 @@ function page() {
         </section>
       </div>
 
-      <section className="w-[80vw] mx-auto items-center grid grid-cols-1 md:grid-cols-3">
+      <section className="w-[65vw] mx-auto items-center grid grid-cols-1 md:grid-cols-3">
         <div
-          className="w-full rounded-md  items-center h-[55vh]"
+          className="w-full rounded-md items-center h-[55vh]"
           style={{
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundImage: `url("/bg2.jpeg")`,
           }}
-        />
+        ></div>
         <div>
-          <div className="font-bold text-3xl text-right text-black dark:text-white"></div>
+          <div className="font-bold text-3xl text-right pt-10 text-black dark:text-white"></div>
           <div className="">
             <div className="items flex flex-col items-center gap-4">
               <div className="item flex items-center gap-4 text-center">
