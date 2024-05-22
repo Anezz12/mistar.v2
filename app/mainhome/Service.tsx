@@ -28,7 +28,7 @@ function Service() {
           Layanan <em className="text-blue-500">Mistar</em>
         </span>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div className="bg-white dark:bg-black rounded-lg shadow-md overflow-hidden">
+          <div className="bg-white dark:bg-gray-900  rounded-lg shadow-md overflow-hidden">
             <Image
               src="/bg.jpeg"
               width="300"
@@ -53,7 +53,7 @@ function Service() {
             </div>
           </div>
 
-          <div className="bg-white dark:bg-black rounded-lg shadow-md overflow-hidden ">
+          <div className="bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden ">
             <Image
               src="/bg.jpeg"
               width="300"
@@ -78,7 +78,7 @@ function Service() {
             </div>
           </div>
 
-          <div className="bg-white dark:bg-black rounded-lg shadow-md overflow-hidden">
+          <div className="bg-white dark:bg-gray-900 rounded-lg shadow-md overflow-hidden">
             <Image
               src="/bg.jpeg"
               width="300"

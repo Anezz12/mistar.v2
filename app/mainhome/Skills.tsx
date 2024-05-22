@@ -24,7 +24,7 @@ function Skills() {
           Kenapa <em className="text-blue-500">Mistar</em>
         </span>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div className="bg-slate-50 dark:bg-black flex flex-col items-center pt-20 rounded-lg shadow-md overflow-hidden">
+          <div className="bg-slate-50 dark:bg-gray-900 flex flex-col items-center pt-20 rounded-lg shadow-md overflow-hidden">
             <Image
               src="/mesin1.png"
               width="50"
@@ -43,7 +43,7 @@ function Skills() {
             </div>
           </div>
 
-          <div className="bg-slate-50 dark:bg-black  flex flex-col items-center pt-20 rounded-lg shadow-md overflow-hidden">
+          <div className="bg-slate-50 dark:bg-gray-900  flex flex-col items-center pt-20 rounded-lg shadow-md overflow-hidden">
             <Image
               src="/mesin2.png"
               width="50"
@@ -63,7 +63,7 @@ function Skills() {
             </div>
           </div>
 
-          <div className="bg-slate-50 dark:bg-black flex flex-col items-center pt-20 rounded-lg shadow-md overflow-hidden">
+          <div className="bg-slate-50 dark:bg-gray-900 flex flex-col items-center pt-20 rounded-lg shadow-md overflow-hidden">
             <Image
               src="/jempol.png"
               width="50"

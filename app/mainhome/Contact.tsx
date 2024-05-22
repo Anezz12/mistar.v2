@@ -27,24 +27,24 @@ function Contact() {
             <form id="contactFrom">
               <div className=" grid grid-cols-2 gap-4">
                 <div>
-                  <span className=" text-sm after:content-['_*'] text-black">
+                  <span className=" text-sm after:content-['_*'] text-black dark:text-white">
                     Name
                   </span>
                   <input
                     type="text"
-                    className="w-full bg-white border border-blue-500 mt-2 p-3 rounded-xl focus:outline-none text-black"
+                    className="w-full bg-white border border-gray-500 mt-2 p-3 rounded-xl focus:outline-none text-black"
                     placeholder="your name"
                     name="from"
                     required
                   />
                 </div>
                 <div>
-                  <span className=" text-sm after:content-['_*'] text-black">
+                  <span className=" text-sm after:content-['_*'] text-black dark:text-white">
                     Email
                   </span>
                   <input
                     type="text"
-                    className="w-full  bg-white border border-blue-500 mt-2 p-3 rounded-xl focus:outline-none text-black"
+                    className="w-full  bg-white border border-gray-500 mt-2 p-3 rounded-xl focus:outline-none text-black"
                     placeholder="your Email"
                     name="from"
                     required
@@ -52,11 +52,11 @@ function Contact() {
                 </div>
               </div>
               <div className="mt-4">
-                <span className="text-sm after:content-['_*'] text-black">
+                <span className="text-sm after:content-['_*'] text-black dark:text-white">
                   Message
                 </span>
                 <textarea
-                  className="w-full h-32 bg-white border border-blue-500 mt-2 p-3 rounded-xl focus:outline-none text-black"
+                  className="w-full h-32 bg-white border border-gray-500 mt-2 p-3 rounded-xl focus:outline-none text-black"
                   placeholder="type some thing... has 1024 max length."
                   name="msg"
                   maxLength={1024}
@@ -65,7 +65,7 @@ function Contact() {
               </div>
               <div className="mt-4">
                 <button
-                  className="w-full disabled:opacity-75 disabled:pointer-events-none text-center bg-blue-400 hover:bg-blue-500 px-4 py-3 rounded-xl transition duration-200 ease-in-out"
+                  className="w-full disabled:opacity-75 disabled:pointer-events-none text-center bg-gray-400 hover:bg-blue-500 px-4 py-3 rounded-xl transition duration-200 ease-in-out"
                   type="submit"
                 >
                   {"Send Message "}
