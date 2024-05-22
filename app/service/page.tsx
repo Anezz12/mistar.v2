@@ -89,7 +89,7 @@ function Skills() {
               {skills.map((skill, index) => (
                 <div
                   key={index}
-                  className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-5"
+                  className="bg-white dark:bg-gray-900 rounded-lg shadow-lg p-5"
                 >
                   <div className="bg-slate-50 flex flex-col items-center rounded-lg shadow-md overflow-hidden">
                     <Image
