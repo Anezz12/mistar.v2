@@ -24,11 +24,7 @@ export const skills = [
     text: "Layanan pemotongan kertas sesuai ukuran yang diinginkan, seperti memotong kertas ukuran A4 menjadi ukuran kartu nama atau brosur.",
     img: "/pemotongan.png",
   },
-  {
-    title: "Fotokopi Hitam Putih",
-    text: "Layanan fotokopi dokumen hitam putih dengan berbagai pilihan ukuran kertas, seperti A4, A3, Folio, dan lain-lain.",
-    img: "/hitamputih.webp",
-  },
+
   {
     title: "Pemindaian Dokumen",
     text: " Pemindaian Dokumen Layanan memindai dokumen fisik menjadi file digital seperti PDF atau format lainnya.",
