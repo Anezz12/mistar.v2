@@ -26,3 +26,7 @@ body {
     text-wrap: balance;
   }
 }
+
+.borderBlack {
+  @aplly border border-black/10;
+}

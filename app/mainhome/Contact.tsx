@@ -1,6 +1,7 @@
 "use client";
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { FaPaperPlane } from "react-icons/fa";
 function Contact() {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -63,12 +64,13 @@ function Contact() {
                   required
                 ></textarea>
               </div>
-              <div className="mt-4">
+              <div className="mt-4 flex flex-col items-center text-white">
                 <button
-                  className="w-full disabled:opacity-75 disabled:pointer-events-none text-center bg-gray-400 hover:bg-blue-500 px-4 py-3 rounded-xl transition duration-200 ease-in-out"
+                  className="group flex items-center gap-2 justify-center h-[3rem] w-[8rem] bg-gray-900 rounded-full outline-none transition-all focus:scale-110 hover:scale-110 active:scale-105 dark:text-white"
                   type="submit"
                 >
-                  {"Send Message "}
+                  {"submit "}
+                  <FaPaperPlane className="text-xs opacity-70 transition-all group-hover:translate-x-1 group-hover:-translate-y-1" />
                 </button>
               </div>
             </form>
